@@ -70,5 +70,51 @@ input[type="text"]:focus {
 .btn-add:hover {
     background-color: #24553f;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.movie-poster {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 16px;
+    background-color: #e5e7eb;
+}
+
+.movie-title {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.btn-delete {
+    background-color: transparent;
+    color: #b91c1c;
+    border: 1px solid #fca5a5;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    background-color: #fef2f2;
+}
+
 
 
