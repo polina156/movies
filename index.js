@@ -15,7 +15,7 @@ function renderMovies() {
         const li = document.createElement('li');
         const img = document.createElement('img');
         const span = document.createElement('span');
-        const deleteBtn = document.createElement('button'); 
+        const deleteBtn = document.createElement('button');
 
         img.src = moviePosters[index];
         img.className = 'movie-poster';
@@ -30,7 +30,7 @@ function renderMovies() {
             moviePosters.splice(index, 1);
             renderMovies(); 
         });
-      
+
         li.append(img, span, deleteBtn); 
         movieList.append(li);
     });
