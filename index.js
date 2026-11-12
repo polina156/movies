@@ -1,7 +1,13 @@
-const movieTitles = ['Космическая станция'];
-const moviePosters = ['covers/space.jpg'];
-
-const movieList = document.getElementById('movieList');
+const movieTitles = [
+    'Космическая станция', 
+    'Тайна старого дома', 
+    'Поезд на север'
+];
+const moviePosters = [
+    'covers/space.jpg', 
+    'covers/house.jpg', 
+    'covers/train.jpg'
+];
 
 function renderMovies() {
     movieList.innerHTML = ''; 
