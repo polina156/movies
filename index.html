@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Что посмотреть</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Что посмотреть</h1>
+
+        <!-- Поля для ввода -->
+        <div class="form-group">
+            <div class="input-wrapper">
+                <label for="movieName">Название фильма</label>
+                <input id="movieName" type="text" placeholder="Например, Остров сокровищ">
+            </div>
+            <div class="input-wrapper">
+                <label for="moviePoster">Ссылка на обложку</label>
+                <input id="moviePoster" type="text" placeholder="https://...">
+            </div>
+            <button id="addMovie" class="btn-add" type="button">Добавить</button>
+        </div>
+
+        <ul id="movieList"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
